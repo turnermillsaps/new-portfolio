@@ -6,7 +6,7 @@ body {
 #header-content {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -25,6 +25,22 @@ body {
     #header-personal-desc {
         font-family: 'MedievalSharp', serif;
     }
+
+.header-torch-regular {
+    background-image: url('/images/torch.png');
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+} 
+
+.header-torch-reversed {
+    background-image: url('/images/torch.png');
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    transform: scaleX(-1);
+}
+
 /* Mobile */
 @media (max-width: 640.98px) {
 }
@@ -51,6 +67,14 @@ body {
         align-items: center;
         font-size: 35px;
     }
+
+    .header-torch-regular {
+        margin-top: 71px;
+    }
+
+    .header-torch-reversed {
+        margin-top: 71px;
+    }
 }
 
 /* 1920 x 1080 and higher */
@@ -74,6 +98,14 @@ body {
         justify-content: center;
         align-items: center;
         font-size: 43px;
+    }
+
+    .header-torch-regular {
+        margin-top: 107px;
+    }
+
+    .header-torch-reversed {
+        margin-top: 107px;
     }
 }
 
