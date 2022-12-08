@@ -16,8 +16,9 @@ body {
 }
 
     #header-personal {
-        background-image: url('/images/scroll-paper.svg');
+        background-image: url('/images/wood-sign.png');
         background-size: cover;
+        background-position: center;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -54,10 +55,6 @@ body {
     box-shadow: 10px 30px 30px rgba(0, 0, 0, 0.5);
 }
 
-    .wood-divider-shadow {
-        width: 100%;
-    }
-
 #about-me {
     display: flex;
     flex-direction: column;
@@ -72,8 +69,8 @@ body {
 @media (min-width: 1024px) {
     #header-personal {
         width: 604px;
-        height: 241px;
-        margin-top: 71px;
+        height: 434px;
+        margin-top: -40px;
     }
 
     #header-personal-name {
@@ -82,13 +79,18 @@ body {
         align-items: center;
         font-family: 'MedievalSharp', serif;
         font-size: 35px;
+        color: white;
+        font-weight: 600;
+        margin-top: 72px;
     }
 
     #header-personal-desc {
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 35px;
+        font-size: 27px;
+        color: white;
+        margin-top: 41px;
     }
 
     .header-torch-regular {
@@ -97,6 +99,10 @@ body {
 
     .header-torch-reversed {
         margin-top: 71px;
+    }
+
+    .top-divider {
+        margin-top: -140px;
     }
 }
 
@@ -104,8 +110,7 @@ body {
 @media (min-width: 1920px) {
     #header-personal {
         width: 813px;
-        height: 332px;
-        margin-top: 107px;
+        height: 710px;
     }
 
     #header-personal-name {
@@ -114,6 +119,10 @@ body {
         align-items: center;
         font-family: 'MedievalSharp', serif;
         font-size: 43px;
+        color: white;
+        font-weight: 600;
+        margin-top: 117px;
+        margin-bottom: 50px;
     }
 
     #header-personal-desc {
@@ -129,6 +138,10 @@ body {
 
     .header-torch-reversed {
         margin-top: 107px;
+    }
+
+    #top-divider {
+        margin-top: -140px;
     }
 }
 
