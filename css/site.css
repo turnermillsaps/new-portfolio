@@ -1,0 +1,79 @@
+body {
+    background-image: url('/images/Brickwall.jpg');
+    background-size: cover;
+}
+
+#header-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    #header-personal {
+        background-image: url('/images/scroll-paper.svg');
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #header-personal-name {
+        font-family: 'MedievalSharp', serif;
+    }
+
+    #header-personal-desc {
+        font-family: 'MedievalSharp', serif;
+    }
+/* Mobile */
+@media (max-width: 640.98px) {
+}
+
+/* 1024 x 768 */
+@media (min-width: 1024px) {
+    #header-personal {
+        width: 604px;
+        height: 241px;
+        margin-top: 71px;
+    }
+
+    #header-personal-name {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'MedievalSharp', serif;
+        font-size: 35px;
+    }
+
+    #header-personal-desc {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 35px;
+    }
+}
+
+/* 1920 x 1080 and higher */
+@media (min-width: 1920px) {
+    #header-personal {
+        width: 813px;
+        height: 332px;
+        margin-top: 107px;
+    }
+
+    #header-personal-name {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'MedievalSharp', serif;
+        font-size: 43px;
+    }
+
+    #header-personal-desc {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 43px;
+    }
+}
+
