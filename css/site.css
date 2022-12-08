@@ -1,6 +1,11 @@
 body {
     background-image: url('/images/Brickwall.jpg');
     background-size: cover;
+    margin: 0;
+}
+
+.main {
+    width: 100vw;
 }
 
 #header-content {
@@ -39,6 +44,24 @@ body {
     height: 400px;
     background-size: cover;
     transform: scaleX(-1);
+}
+
+.wood-divider {
+    width: 100%;
+    height: 200px;
+    background-image: url('/images/wood-plank.png');
+    background-size: contain;
+    box-shadow: 10px 30px 30px rgba(0, 0, 0, 0.5);
+}
+
+    .wood-divider-shadow {
+        width: 100%;
+    }
+
+#about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /* Mobile */
