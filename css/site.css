@@ -50,16 +50,47 @@ body {
 .wood-divider {
     width: 100%;
     height: 200px;
-    background-image: url('/images/wood-plank.png');
-    background-size: contain;
     box-shadow: 10px 30px 30px rgba(0, 0, 0, 0.5);
 }
 
-#about-me {
+#projects-and-skills {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
+
+    #about-me {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .small-wood-sign {
+        background-image: url('/images/small-wood-sign.png');
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'MedievalSharp', serif;
+        color: white;
+    }
+
+    .small-wood-door {
+        display: flex;
+        align-items: center;
+    }
+
+        .small-wood-door-image {
+            background-image: url('/images/small-door.png');
+            transform: scaleX(-1);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .profile-picture {
+            background-image: url('/images/profile-picture.jpg');
+            background-position: center;
+            background-size: cover;
+            background-color: black;
+        }
 
 /* Mobile */
 @media (max-width: 640.98px) {
@@ -101,7 +132,7 @@ body {
         margin-top: 71px;
     }
 
-    .top-divider {
+    #top-divider {
         margin-top: -140px;
     }
 }
@@ -143,5 +174,28 @@ body {
     #top-divider {
         margin-top: -140px;
     }
+
+    #projects-and-skills {
+        padding-left: 100px;
+        padding-right: 100px;
+        height: 700px;
+    }
+
+        .small-wood-sign {
+            height: 300px;
+            width: 300px;
+            margin-left: 140px;
+        }
+        
+            .small-wood-sign-text {
+                font-size: 35px;
+                font-weight: 500;
+                padding-top: 38px;
+            }
+
+            .small-wood-door-image {
+                width: 300px;
+                height: 600px;
+            }
 }
 
