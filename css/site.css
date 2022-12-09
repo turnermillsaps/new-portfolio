@@ -83,6 +83,7 @@ body {
             transform: scaleX(-1);
             background-position: center;
             background-size: cover;
+            box-shadow: 20px 5px 30px 10px rgba(0, 0, 0, 0.8);
         }
 
         .profile-picture {
@@ -176,26 +177,32 @@ body {
     }
 
     #projects-and-skills {
-        padding-left: 100px;
-        padding-right: 100px;
-        height: 700px;
+        padding-left: 50px;
+        padding-right: 50px;
+        height: 1000px;
     }
 
         .small-wood-sign {
             height: 300px;
             width: 300px;
-            margin-left: 140px;
+            margin-left: 190px;
+            margin-top: -11px;
         }
         
             .small-wood-sign-text {
                 font-size: 35px;
                 font-weight: 500;
-                padding-top: 38px;
+                padding-top: 98px;
             }
 
             .small-wood-door-image {
                 width: 300px;
-                height: 600px;
+                height: 500px;
+            }
+
+            .profile-picture {
+                width: 300px;
+                height: 500px;
             }
 }
 
