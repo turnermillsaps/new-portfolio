@@ -62,6 +62,16 @@ body {
         flex-direction: column;
     }
 
+    #about-me-desc {
+        background-image: url('/images/scroll-paper.png');
+        background-position: center;
+        background-size: cover;
+        font-family: 'MedievalSharp', serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .small-wood-sign {
         background-image: url('/images/small-wood-sign.png');
         background-position: center;
@@ -92,6 +102,10 @@ body {
             background-size: cover;
             background-color: black;
         }
+
+    #skills {
+        
+    }
 
 /* Mobile */
 @media (max-width: 640.98px) {
@@ -181,6 +195,20 @@ body {
         padding-right: 50px;
         height: 1000px;
     }
+
+        #about-me-desc {
+            width: 300px;
+            height: 500px;
+            margin-top: 253px;
+            margin-left: 45px;
+        }
+
+        #about-me-desc-text {
+            width: 200px;
+            height: 234px;
+            font-size: larger;
+            font-weight: 600;
+        }
 
         .small-wood-sign {
             height: 300px;
